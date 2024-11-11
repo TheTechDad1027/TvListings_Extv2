@@ -1,0 +1,16 @@
+// manifest.json
+{
+  "manifest_version": 3,
+  "name": "TV Listings",
+  "version": "1.0",
+  "description": "Displays new TV shows airing on a requested date.",
+  "icons": {"128": "128.png"},
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ]
+}
